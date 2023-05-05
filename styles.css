@@ -4,6 +4,7 @@
     --botao-azul:#167df7;
     --cor-de-fundo:#00030c;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito:#3c92fa;
 }
 
 body{
@@ -171,4 +172,8 @@ body{
 .rodape_texto{
     font-size: 12px;
     color: var(--cinza-secundaria);
+}
+
+.lista_link a:active{
+    color:purple
 }
